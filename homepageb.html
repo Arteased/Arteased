@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="/img/Arteased Logo.svg">
+    <link href="homepagebstyle.css" rel="stylesheet">
+    <title>Arteased</title>
+</head>
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <a href="homepageb.html">
+                    <img src="./img/Web Arteased Logo.svg"> 
+                </a>
+            </div>
+            <div class="navItem">
+                <form id="searchForm">
+                    <input type="search" placeholder="Monet..." id="searchInput" onkeyup="search()" autocomplete="off" data-search>
+                    <img src="img/Search Icon.svg" type="submit" id="searchBtn">
+                </form>
+            </div>
+            <div class="navItem">
+                <a href="login.html">Log In</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+        <div class="navBottom">
+            <!-- <a href="article.html">Article</a>
+            <a href="learn.html">Learn</a>
+            <a href="store.html">Store</a> -->
+            <a href="explore.html">Explore</a>
+            <!-- <a href="events.html">Events</a>
+            <a href="exploreartist.html">Artist</a> -->
+            <a href="homepage.html#section">About Us</a>
+            <a href="homepage.html#section-2">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <a href="login.html">
+            <div>
+                <p>Want to sell your art?</p>
+                <p>We are enabling artist to sell their art with ease.</p>
+                <div class="learnMoreBtn">
+                    <button>Learn More</button>    
+                </div>
+            </div>
+        </a>
+    </main>
+    <section id="section" class="section">
+        <div>
+            <h1>About Us</h1>
+            <h2>What is Arteased?</h1>
+            <p>Arteased is platform to help art industry to growth, starting from Indonesia. Our first main services provided on this website is to enable artists for selling their art with convenience. Arteased still in MVP stage start up.</p>
+            <h2>Our Vision& Mission</h1>
+            <h2>Vision</h1>
+            <p>Contribute to developing art industry starting from Indonesia.</p>
+            <h2>Mission</h1>
+            <p>Helping new potential artist get known on public and building their career.</p>
+        </div>
+    </section>
+    <section id="section-2">
+        <form action="https://formsubmit.co/cs.arteased@gmail.com" method="POST">
+            <div>
+                <h1>Contact</h1>
+                <p>If you want to collaborate with us or you have unpleasant experience within the service, please let us know by fill in these form below.</p>
+            </div>
+            <div class="center">
+                <label for="FullName" class="required">Full Name</label>
+                <input type="text" id="FullName" name="FullName" class="input" required>
+            </div>
+            <div class="center">
+                <label for="Comapny/Institutions">Company/Instiutions</label>
+                <input type="text" id="Company/Instiutions" name="Company/Institutions" class="input">
+            </div>
+            <div class="center">
+                <label for="Collaboration/Complaint" class="required">Collaboration/Complaint</label>
+                <div class="wholeRadio">
+                    <label for="Collaboration"><input type="radio" name="Collaboration/Complaint" id="Collaboration" value="Collaboration" class="radio">Collaboration</label>
+                    <label for="Complaint"><input type="radio" name="Collaboration/Complaint" id="Complaint" value="Complaint" class="radio">Complaint</label>
+                </div>
+            </div>
+            <div class="center">
+                <label for="Details" class="required">Details</label>
+                <textarea name="Details" id="Details" cols="30" rows="10" class="input2" required></textarea>
+            </div>
+            <div class="center">
+                <label for="Email" class="required">Email</label>
+                <input type="email" id="Email" name="Email" class="input" required>
+            </div>
+            <div class="center">
+                <label for="PhoneNumber" class="required">Phone Number</label>
+                <input type="tel" id="PhoneNumber" name="PhoneNumber" onkeypress="return checkNumber(event)" class="input" required>
+            </div>
+            <div class="center2">
+                <p>For any question you can contact email below</p>
+                <p class="emailArteased">cs.arteased@gmail.com</p>
+            </div>
+            <div class="center">
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </form>
+    </section>
+    <script src="homepageb.js"></script>
+</body>
+</html>
