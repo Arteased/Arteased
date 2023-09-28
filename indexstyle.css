@@ -108,33 +108,33 @@ main p:nth-child(2){
     width: 240px;
 }
 
-section:nth-child(1) div{
+.section div{
     margin-bottom: 80px;
     padding: 32px 80px;
 }
 
-section:nth-child(1) h1, section:nth-child(1) h2, section:nth-child(1) p{
+.section h1, .section h2, .section p{
     margin-bottom: 60px;
     text-align: center;
 }
 
-section:nth-child(1) h1, section:nth-child(1) h2{
+.section h1, .section h2{
     font-size: 40px;
     font-weight: bold;
 }
 
-section:nth-child(1) h2{
+.section h2{
     font-size: 24px;
 }
 
-section:nth-child(1) p{
+.section p{
     font-size: 16px;
 }
 
 form{
+    align-items: center;
     background-color: #252525;
     padding: 200px;
-    align-items: center;
 }
 
 form div:nth-child(1){
