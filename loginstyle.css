@@ -1,0 +1,247 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fafafa;
+    color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: #252525;
+    height: 160px;
+    max-width: 100%;
+    padding: 0px 120px;
+}
+
+.navTop{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+a img{
+    padding-top: 50px;
+}
+
+.navItem:nth-child(2) form{
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 8px;
+    display: flex;
+    height: 12px;
+    padding: 14px 16px;
+    width: 568px;
+}
+
+.navItem:nth-child(2) input{
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    outline: none;
+    width: 600px;
+}
+
+.navItem:nth-child(3){
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.navItem:nth-child(3) a, .navBottom a{
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navBottom{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navBottom a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.login h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.api * {
+    box-sizing: border-box;
+    gap: 8px;
+    }
+
+    .fb-ig, .g-x{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fb-ig{
+        margin-bottom: 8px;
+    }
+
+    .fbBtn, .igBtn, .gBtn, .xBtn{
+        align-items: center;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        font-size: 20px;
+        font-weight: 300;
+        height: 60px;
+        padding: 12px 18px 12px 20px;
+        width: 180px;
+    }
+
+    .fbBtn{
+        background-color: #237ed2;
+        border: none;
+        color: #fafafa;
+    }
+
+    .fbBtn img, .igBtn img, .gBtn img, .xBtn img{
+        height: 32px;
+        width: 32px;
+    }
+
+    .igBtn{
+        background-color: #fafafa;
+        border: #030303 1px solid;
+        color: #030303;
+    }
+
+    .gBtn {
+        background-color: #F0AE4A;
+        border: none;
+        color: #fafafa;
+    }
+    
+    .xBtn {
+        background-color: #2590DE;
+        border: none;
+    }
+
+    .xBtn, .xBtn img{
+        color: #fafafa;
+    }
+
+.or h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    width: min-content;
+}
+
+label{
+    align-items: center;
+    font-size: 24px;
+    height: 40px;
+}
+
+.emailInput, .passwordInput{
+    height: 40px;
+    width: 400px;
+}
+
+.emailInput{
+    margin-bottom: 20px;
+}
+
+.passwordInput{
+    margin-bottom: 8px;
+}
+
+.checkbox{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    justify-content: right;
+    width: 400px;
+}
+
+.checkbox input{
+    box-sizing: border-box;
+    height: 32px;
+    width: 32px;
+}
+
+.checkbox label{
+    align-items: center;
+
+}
+
+.forgotpassword{
+    text-align: center;
+    text-decoration: none;
+}
+
+.forgotpassword a{
+    color: #030303;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textRegister{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.textRegister a{
+    color: #030303;
+    text-decoration: none;
+}
+.textRegister p, .textRegister h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.textRegister p{
+    font-weight: 400;
+}
+
+.logInBtn{
+    display: grid;
+    place-items: center;
+    margin-bottom: 120px;
+}
+
+.logInBtn input{
+    background-color: #d45473;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 80px 15px 80px;
+    height: 60px;
+    width: 240px;
+    cursor: pointer;
+    text-align: center;
+} 
