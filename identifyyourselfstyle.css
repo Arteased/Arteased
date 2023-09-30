@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fafafa;
+    color: #030303;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: #252525;
+    height: 160px;
+    max-width: 100%;
+    padding: 0px 120px;
+}
+
+.navTop{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+a img{
+    padding-top: 50px;
+}
+
+.navItem:nth-child(2) form{
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 8px;
+    display: flex;
+    height: 12px;
+    padding: 14px 16px;
+    width: 568px;
+}
+
+.navItem:nth-child(2) input{
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    outline: none;
+    width: 600px;
+}
+
+.navItem:nth-child(3){
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.navItem:nth-child(3) a, .navBottom a{
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navBottom{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navBottom a{
+    font-size: 16;
+    text-decoration: none;
+}
+
+.iyTitle{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.iyTitle h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.iyTitle p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nextbutton{
+    margin-bottom: 120px;
+    text-align: center;
+} 
+    
+.next{
+    border-radius: 8px;
+    padding: 15px 80px 15px 80px;
+    width: 240px;
+    height: 60px;
+    color: #ffffff;
+    border: none;
+    background-color: #d45473;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+} 
