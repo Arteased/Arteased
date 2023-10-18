@@ -33,23 +33,3 @@ function checkNumber(event) {
     if (aCode > 31 && (aCode < 48 || aCode > 57)) return false;
     return true;
 }
-
-(function (m, a, z, e) {
-  var s, t;
-  try {
-    t = m.sessionStorage.getItem('maze-us');
-  } catch (err) {}
-
-  if (!t) {
-    t = new Date().getTime();
-    try {
-      m.sessionStorage.setItem('maze-us', t);
-    } catch (err) {}
-  }
-
-  s = a.createElement('script');
-  s.src = z + '?t=' + t + '&apiKey=' + e;
-  s.async = true;
-  a.getElementsByTagName('head')[0].appendChild(s);
-  m.mazeUniversalSnippetApiKey = e;
-})(window, document, 'https://snippet.maze.co/maze-universal-loader.js', '6ba0fb1e-b702-4573-b5a3-cdb571976603');
